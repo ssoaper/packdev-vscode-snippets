@@ -4,7 +4,7 @@
 		"body": [
 			"ServerEvents.recipes((event) => {",
 			"    $0",
-			"}"
+			"})"
 		],
 		"description": "KubeJS recipe event"
 	},
@@ -14,7 +14,7 @@
 		"body": [
 			"ServerEvents.${1:event}((event) => {",
 			"    $0",
-			"}"
+			"})"
 		]
 	},
 
@@ -23,7 +23,7 @@
 		"body": [
 			"StartupEvents.${1:event}((event) => {",
 			"    $0",
-			"}"
+			"})"
 		]
 	},
 
@@ -32,7 +32,7 @@
 		"body": [
 			"StartupEvents.registry(${1:type}, (event) => {",
 			"    $0",
-			"}"
+			"})"
 		]
 	},
 
@@ -41,7 +41,7 @@
 		"body": [
 			"StartupEvents.registry('item', (event) => {",
 			"    $0",
-			"}"
+			"})"
 		]
 	},
 
@@ -50,7 +50,7 @@
 		"body": [
 			"StartupEvents.registry('block', (event) => {",
 			"    $0",
-			"}"
+			"})"
 		]
 	},
 
@@ -59,7 +59,7 @@
 		"body": [
 			"${1:category}.${2:event}(${3:type}, (event) => {",
 			"    $0",
-			"}"
+			"})"
 		]
 	},
 
@@ -68,7 +68,7 @@
 		"body": [
 			"GTCEuStartupEvents.registry(${1:type}, (event) => {",
 			"    $0",
-			"}"
+			"})"
 		]
 	},
 }
