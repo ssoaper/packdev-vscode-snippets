@@ -1,0 +1,74 @@
+{
+	"Recipe Event": {
+		"prefix": "recipes",
+		"body": [
+			"ServerEvents.recipes((event) => {",
+			"    $0",
+			"}"
+		],
+		"description": "KubeJS recipe event"
+	},
+
+	"Generic Server Event": {
+		"prefix": "server",
+		"body": [
+			"ServerEvents.${1:event}((event) => {",
+			"    $0",
+			"}"
+		]
+	},
+
+	"Generic Startup Event": {
+		"prefix": "startup",
+		"body": [
+			"StartupEvents.${1:event}((event) => {",
+			"    $0",
+			"}"
+		]
+	},
+
+	"Registry Event": {
+		"prefix": "registry",
+		"body": [
+			"StartupEvents.registry(${1:type}, (event) => {",
+			"    $0",
+			"}"
+		]
+	},
+
+	"Item Registry Event": {
+		"prefix": "iregistry",
+		"body": [
+			"StartupEvents.registry('item', (event) => {",
+			"    $0",
+			"}"
+		]
+	},
+
+	"Block Registry Event": {
+		"prefix": "bregistry",
+		"body": [
+			"StartupEvents.registry('block', (event) => {",
+			"    $0",
+			"}"
+		]
+	},
+
+	"Generic Event": {
+		"prefix": "event",
+		"body": [
+			"${1:category}.${2:event}(${3:type}, (event) => {",
+			"    $0",
+			"}"
+		]
+	},
+
+	"GT Registry Event": {
+		"prefix": "event",
+		"body": [
+			"GTCEuStartupEvents.registry(${1:type}, (event) => {",
+			"    $0",
+			"}"
+		]
+	},
+}
