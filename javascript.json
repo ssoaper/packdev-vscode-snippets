@@ -82,7 +82,7 @@
 	"Fluid.of": {
 		"prefix": "fof",
 		"body": [
-			"Fluid.of(${1:id}, ${2:count}"
+			"Fluid.of(${1:id}, ${2:count})"
 		]
 	}
 }
