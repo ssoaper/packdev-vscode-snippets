@@ -71,4 +71,18 @@
 			"})"
 		]
 	},
+
+	"Item.of": {
+		"prefix": "iof",
+		"body": [
+			"Item.of(${1:id}, ${2:count}"
+		]
+	},
+
+	"Fluid.of": {
+		"prefix": "fof",
+		"body": [
+			"Fluid.of(${1:id}, ${2:count}"
+		]
+	}
 }
