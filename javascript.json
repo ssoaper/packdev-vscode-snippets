@@ -75,7 +75,7 @@
 	"Item.of": {
 		"prefix": "iof",
 		"body": [
-			"Item.of(${1:id}, ${2:count}"
+			"Item.of(${1:id}, ${2:count})"
 		]
 	},
 
